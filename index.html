@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <title>Site Title</title>
   <link rel="stylesheet" href="css/reset.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+          
   <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
   <script src="script.js"></script>
 </head>
 <body> 
   
   <div class="container">
+    <div class="row">
+      <div class="col m8 offset-m2">
     <h1>Guess a number between 1 and 10, inclusive.</h1>
     <div class="form" id="number-form">
       <input type="number" id="age" >
@@ -17,8 +27,8 @@
     </div>
     <div id="answer" class="answer-text"></div>
   </div>
+    </div>
+  </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
