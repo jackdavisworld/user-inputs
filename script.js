@@ -1,7 +1,7 @@
 $(function() {
   //All JS goes within these brackets  
   
-  $("#number-submit").click(function(){
+  $("#number-submit").click(function(){;
     
     //select the box with id of number
     //get the value from that box
